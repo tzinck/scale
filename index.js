@@ -26,7 +26,7 @@ io.on('connection', (socket) => {
     socket.emit("weight", weight);
 });
 
-server.listen(80, () => {
+server.listen(8080, () => {
     console.log('listening on *:80');
 });
 
